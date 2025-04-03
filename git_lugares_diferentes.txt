@@ -1,0 +1,22 @@
+1) Clonar o repositório no segundo local (casa)
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2) Atualizar as mudanças antes de começar a trabalhar
+
+git pull origin main
+(Se o branch principal for master em vez de main, use master no lugar de main.)
+
+3) Fazer suas edições e enviar para o GitHub
+
+git add .
+
+git commit -m "Descrição das alterações"
+
+git push origin main
+
+4) Repetir esse fluxo em ambos os locais
+
+Antes de começar a trabalhar, sempre use git pull origin main para garantir que sua cópia local esteja atualizada.
+
+Depois de terminar, faça git add, git commit e git push origin main para enviar as alterações ao GitHub.
