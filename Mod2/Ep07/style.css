@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+    height: 30%;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(167, 45, 45),rgb(48, 116, 234));
+}
+
+.MyDiv { 
+    size: "autp";   
+    background-image: radial-gradient(circle, rgb(186, 247, 209),rgb(2, 85, 60));
+}
